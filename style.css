@@ -1,0 +1,102 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 800px;
+	height:690px;
+	background: gray;
+	margin: 0 auto;
+}
+#header{
+	width: 800px;
+	height:100px;
+	background: #FF9F1C;
+}
+#header img{
+	width:75px;
+	height:75px;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+}
+#menu{
+	width:800px;
+	height:50px;
+	background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 27%, rgba(215,1,1,1) 76%, rgba(252,176,69,1) 100%);}
+#menu ul{
+	list-style: none;
+}
+#menu ul li{
+	float:left;
+	margin-top: 12.5px;
+	margin-left: 30px;	
+}
+#menu ul li a{
+	color: aliceblue;
+	text-decoration: none;
+	font-size: 20px;
+}
+#menu ul li a:hover{
+	color:black;
+}
+
+#left{
+	width:500px;
+	height:450px;
+	background: green;
+	float: left;
+}
+#left h1{
+	text-align: center;
+	font-style: italic;
+}
+#left h2{
+	margin-left: 20px;
+	font-style: italic;
+	
+}
+#left h3{
+	margin-left: 20px;
+	font-style: italic;
+}
+#left p{
+	margin-left: 20px;
+	text-align: justify;
+}
+#right{
+	width:300px;
+	height:450px;
+	background: yellow;
+	float: right;
+	text-align:center;
+}
+#right img{
+	width:260px;
+	height:360px;
+	margin-top:45px;
+
+}
+#footer{
+	width:800px;
+	height:100px;
+	background: blue;	
+}
+#footer ul{
+	list-style: none;
+}
+#footer ul li{
+	float:left;
+	margin-top: 12.5px;
+	margin-left: 80px;	
+}
+#footer ul li a{
+	color: aliceblue;
+	text-decoration: none;
+	font-size: 20px;
+}
+#footer ul li a:hover{
+	color:black;
+}
